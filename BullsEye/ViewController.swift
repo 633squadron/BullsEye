@@ -33,6 +33,38 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         
+        // Set up the slider UI
+        
+        // Normal slider image
+        let thumbImageNormal = UIImage(named: "SliderThumb-Normal")
+        
+        slider.setThumbImage(thumbImageNormal, forState: .Normal)
+        
+        // Highlighted slider image
+        let thumbImageHighlighted = UIImage(named: "SliderThumb-Highlighted")
+        
+        slider.setThumbImage(thumbImageHighlighted, forState: .Highlighted)
+        
+        // Insets - These are used to create a "nine-patch" for an image.
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        
+        // Set the left track image, set insets and caps, and set its default length
+        // 
+        // SliderTrackLeft is a round-capped line, gradient-filled green with expandable
+        // ends
+        if let trackLeftImage = UIImage(named: "SliderTrackLeft") {
+            let trackLeftResizable =
+            trackLeftImage.resizableImageWithCapInsets(insets)
+            slider.setMinimumTrackImage(trackLeftResizable, forState: .Normal)
+        }
+        
+        // Do the same for the right track image as for the left
+        if let trackRightImage = UIImage(named: "SliderTrackRight") {
+                let trackRightResizable =
+                trackRightImage.resizableImageWithCapInsets(insets)
+                slider.setMaximumTrackImage(trackRightResizable, forState: .Normal)
+        }
+        
         current_round = 1
         
         // Start a new round
