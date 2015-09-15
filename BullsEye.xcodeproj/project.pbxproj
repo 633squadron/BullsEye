@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		972B144B1BA8D2180028B34B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 972B144A1BA8D2180028B34B /* BullsEye.html */; };
 		977A18B81B9E1B1300C04D22 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977A18B71B9E1B1300C04D22 /* AboutViewController.swift */; };
 		97C96D6C1B82B06C00DE4D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C96D6B1B82B06C00DE4D49 /* AppDelegate.swift */; };
 		97C96D6E1B82B06C00DE4D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C96D6D1B82B06C00DE4D49 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		972B144A1BA8D2180028B34B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		977A18B71B9E1B1300C04D22 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		97C96D661B82B06C00DE4D49 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C96D6A1B82B06C00DE4D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		97C96D681B82B06C00DE4D49 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				972B144A1BA8D2180028B34B /* BullsEye.html */,
 				97C96D6B1B82B06C00DE4D49 /* AppDelegate.swift */,
 				97C96D6D1B82B06C00DE4D49 /* ViewController.swift */,
 				97C96D6F1B82B06C00DE4D49 /* Main.storyboard */,
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C96D711B82B06C00DE4D49 /* Main.storyboard in Resources */,
+				972B144B1BA8D2180028B34B /* BullsEye.html in Resources */,
 				97C96D761B82B06C00DE4D49 /* LaunchScreen.xib in Resources */,
 				97C96D731B82B06C00DE4D49 /* Images.xcassets in Resources */,
 			);
